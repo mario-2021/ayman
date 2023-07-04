@@ -1,0 +1,43 @@
+@use '../help/variable' as *;
+
+
+.shopButton {
+    margin-top: 20px;
+    margin-left: 25px;
+    .buttonShop {
+        width: 180px;
+        border-radius: 10px;
+        height: 40px;
+        background-color: $flatRed;
+        color: $flatWhite;
+        border: 2px solid $flatRed;
+        font-size: 1.25rem;
+        font-weight: bold;
+        &:hover {
+            background-color: $flatWhite;
+            color: $flatRed;
+        }
+    }
+}
+
+.newOverlay {
+    background-color: rgb(86 118 50 / 60%) !important;
+    color: $flatWhite !important;
+}
+
+.contactButt {
+    width: 100px;
+    border: 2px solid $flatGreen;
+    background-color: $flatGreen;
+    color: $flatWhite;
+    border-radius: 10px;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    height: 50px;
+    &:hover {
+        background-color: $flatWhite;
+        color: $flatGreen;
+    }
+}
